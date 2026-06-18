@@ -1,0 +1,161 @@
+h1, h2, h3, p, a {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1, h2, h3 { 
+    font-weight: 600; 
+}
+
+p { 
+    font-weight: 300; 
+}
+
+a { 
+    font-weight: 400;
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-azul: rgb(210, 233, 255);
+    --cor-azulescuro: rgb(12, 43, 102);
+    --cor-brilho: rgb(10, 67, 255);
+    --cor-texto: rgb(31, 32, 34);
+    --cor-wallpaper: rgb(7, 7, 43);
+    --cor-footer: rgb(24, 41, 78);
+    --cor-dourada: rgb(255, 255, 127);
+    --cor-texto2: rgb(214, 214, 214);
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-padding-top: 80px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.menu-toggle {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 22px;
+    border: 0;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.menu-toggle span {
+    display: block;
+    height: 3px;
+    background: var(--cor-azulescuro);
+    border-radius: 2px;
+}
+
+@media (min-width: 768px) {
+    header {
+        flex-wrap: nowrap;
+        padding: 14px 24px;
+        gap: 16px;
+    }
+    .menu-toggle { display: none; }
+}
+
+@media (min-width: 1100px) {
+    header {
+        padding-inline: 40px;
+        height: 80px;
+    }
+}
+
+main {
+    padding-top: 8vh;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--cor-footer);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 12px;
+}
+
+#lightbox button {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#lightbox button:first-of-type { 
+    top: 20px; right: 30px;
+    font-size: 30px; 
+}
+
+#lightbox button:nth-of-type(2) {
+     left: 20px;
+}
+
+#lightbox button:nth-of-type(3) {
+    right: 20px;
+ }
