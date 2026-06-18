@@ -2,7 +2,9 @@
 
 **Versão 1.0**
 
-Landing page institucional do Dr. Alexandre C. Nascimento, oftalmologista em Nova Mutum – MT. Site one-page, responsivo, com agendamento via WhatsApp.
+Landing page institucional do Dr. Alexandre C. Nascimento, oftalmologista em Nova Mutum – MT. 
+
+Site one-page, responsivo, com agendamento via WhatsApp.
 
 🔗 **Demo:** https://clinica-de-olhos-true.web.app
 
@@ -15,7 +17,7 @@ Landing page institucional do Dr. Alexandre C. Nascimento, oftalmologista em Nov
 
 ## Funcionalidades
 - Header fixo responsivo com menu hambúrguer no mobile
-- Carrossel no hero: loop infinito, autoplay (6s) e setas ‹ ›
+- Carrossel no hero: loop infinito, autoplay e setas ‹ ›
 - Carrossel de exames com navegação manual, adaptado ao tamanho da tela
 - Galeria com lightbox (tela cheia + navegação)
 - Animações de entrada via IntersectionObserver
@@ -37,7 +39,7 @@ assets/
 
 ## Rodar localmente
 ```bash
-git clone <url-do-repo>
+git clone https://github.com/lucasramostech/clinica-ceo
 ```
 Abra o `index.html` no navegador.
 
