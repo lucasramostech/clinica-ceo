@@ -44,7 +44,10 @@ document.querySelector('.esquerda').addEventListener('click', () => {
 })
 
 
-const fotos = ['assets/img/foto1.png','assets/img/foto2.png','assets/img/foto3.png','assets/img/foto4.png','assets/img/foto5.png','assets/img/foto6.png','assets/img/foto7.png','assets/img/foto8.png','assets/img/foto9.png','assets/img/foto10.png','assets/img/foto11.png','assets/img/foto12.png','assets/img/foto13.png','assets/img/foto14.png'];let indice = 0
+// Mods do sistema de carrosel para possibilitar flexibilidade de quantidade de cards + boas práticas
+//Obs: Agradeça a matemática ;>
+
+const fotos = ['assets/img/foto1.png','assets/img/foto2.png','assets/img/foto3.png','assets/img/foto4.png','assets/img/foto5.png','assets/img/foto6.png','assets/img/foto10.png','assets/img/foto11.png','assets/img/foto13.png','assets/img/foto14.png'];let indice = 0
 
 function abrirGaleria(i) {
     indice = i
