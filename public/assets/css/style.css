@@ -948,10 +948,31 @@
     justify-content: space-between;
     padding-inline: 10%;
     align-items: center;
+    width: 90%;
 }
+
+    
 .convs img {
     width: 30%;
     height: 20%;  
+}
+
+@media (max-width: 506px) {
+    .convs {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* centraliza horizontalmente */
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .convs img {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 

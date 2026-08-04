@@ -1,6 +1,6 @@
 # CEO – Centro de Excelência em Oftalmologia
 
-**Versão 1.2**
+**Versão 1.3**
 
 Landing page institucional do Dr. Alexandre C. Nascimento, oftalmologista em Nova Mutum – MT. 
 
