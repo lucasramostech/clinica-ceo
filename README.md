@@ -1,12 +1,12 @@
 # CEO – Centro de Excelência em Oftalmologia
 
-**Versão 1.4**
+**Versão 1.5**
 
 Landing page institucional do Dr. Alexandre C. Nascimento, oftalmologista em Nova Mutum – MT. 
 
 Site one-page, responsivo, com agendamento via WhatsApp.
 
-🔗 **Demo:** https://clinica-de-olhos-true.web.app
+🔗 **Site:** https://dralexandrenascimento.com
 
 ## Stack
 - HTML5
