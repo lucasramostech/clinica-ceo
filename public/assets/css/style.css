@@ -700,7 +700,10 @@
     border-radius: 24px;
     order: 2;
     gap: 7.5vh;
-    
+    padding-block: clamp(64px, 8vh, 96px);
+    gap: clamp(10vh, 15vh, 18vh);
+
+ 
 }
 
 
@@ -757,7 +760,8 @@
     grid-template-areas:
         "item1 item1"
         "item2 item3"
-        "item4 item5";
+        "item4 item5"
+        "item6 item7";
 }
 
 .grid_galeria img {
@@ -788,6 +792,8 @@
 .grid_galeria img:nth-child(3) { grid-area: item3; }
 .grid_galeria img:nth-child(4) { grid-area: item4; }
 .grid_galeria img:nth-child(5) { grid-area: item5; }
+.grid_galeria img:nth-child(6) { grid-area: item6; }
+.grid_galeria img:nth-child(7) { grid-area: item7; }
 
 
 
@@ -799,7 +805,9 @@
             "item2"
             "item3"
             "item4"
-            "item5";
+            "item5"
+            "item6"
+            "item7";
     }
 }
 
@@ -1200,7 +1208,6 @@
         justify-content: center;
     }
 }
-
 
 
 
