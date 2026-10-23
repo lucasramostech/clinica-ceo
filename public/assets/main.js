@@ -64,11 +64,7 @@ function fechar() {
     document.getElementById('lightbox').style.display = 'none'
 }
 
-
-
-
-
-
+//Variaveis
 const heroTrilha = document.querySelector('.hero-track')
 const heroOriginais = Array.from(document.querySelectorAll('.hero-bg'))
 const heroTotal = heroOriginais.length
