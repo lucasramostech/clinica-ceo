@@ -962,8 +962,8 @@
 }
 
 #cirurgias {
-    background-color: var(--cor-azulescuro);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: linear-gradient(180deg, #c7e9f2 0%, #8fc7d8 100%);
+    border: 1px solid rgba(255, 255, 255, 0.65);
     padding: 8vh 6% 5vh;
     text-align: center;
     border-radius: 48px;
@@ -971,7 +971,7 @@
 }
 
 #cirurgias > h3 {
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--cor-azulescuro);
     letter-spacing: 0.08em;
     margin-bottom: 0.8rem;
     font-size: clamp(22px, 2.5vw, 28px);
@@ -982,7 +982,7 @@
 }
 
 #cirurgias h1 {
-    color: white;
+    color: var(--cor-azulescuro);
     margin: 0 auto 2rem;
     max-width: 720px;
     line-height: 1.08;
@@ -1013,13 +1013,13 @@
 
 .cards h3 {
     font-weight: bolder;
-    color: white;
+    color: var(--cor-azulescuro);
 }
 
 .card {
     position: relative;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    box-shadow: 0 4px 16px rgba(15, 58, 105, 0.08);
     min-width: 0;
     width: 100%;
     display: flex;
@@ -1028,7 +1028,7 @@
     gap: 10px;
     padding: 18px 14px;
     border-radius: 28px;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.35);
     transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
     opacity: 0;
 }
@@ -1037,7 +1037,7 @@
 
 .card:hover {
     transform: translateY(-6px);
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 8px 48px rgba(0,0,0,0.25);
 }
 
@@ -1053,12 +1053,13 @@
 
 .card h3 {
     margin: 0;
+    color: #000;
     font-size: clamp(16px, 2vw, 18px);
 }
 
 .card p {
     margin: 0;
-    color: rgba(255, 255, 255, 0.85);
+    color: #000;
     font-size: clamp(16px, 1.4vw, 18px);
     line-height: 1.5;
     text-align: center;
